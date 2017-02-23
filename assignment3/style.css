@@ -1,0 +1,51 @@
+body {
+	background: blue;
+	text-align: center;
+}
+body ul {
+	list-style-type: none
+	text-transform: none;
+	margin-right: 
+}
+img {
+	vertical-align: center;
+	height: 10;
+	width: 10;
+}
+#main {
+	width: 1000px;
+	height: 600px;
+	background: red;
+	margin: 25px auto;
+	border: solid 2px brown;
+	padding: 10px
+}
+h1 {
+	margin-right: right;
+	text-align: center;
+	font-family:"times New Roman";
+	font: 24pt;
+	color: red;
+}
+hr {
+	height: 2px;
+	color: blue;
+
+
+}
+p {
+	font-family: "calibri"
+	font-size: 12pt;
+	text-align: left;
+	text-indent: 48px
+	color: white;
+	margin: 50px;
+}
+h2 {
+	font-family: "arial rounded"
+	font-size: 17p;
+
+}
+a.highlight:hover {
+color: black;
+}
