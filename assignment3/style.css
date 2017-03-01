@@ -3,9 +3,9 @@ body {
 	text-align: center;
 }
 body ul {
-	list-style-type: none
+	list-style-type: none;
 	text-transform: none;
-	margin-right: 
+	margin-right: right; 
 }
 img {
 	vertical-align: center;
@@ -18,7 +18,7 @@ img {
 	background: red;
 	margin: 25px auto;
 	border: solid 2px brown;
-	padding: 10px
+	padding: 10px;
 }
 h1 {
 	margin-right: right;
@@ -37,7 +37,7 @@ p {
 	font-family: "calibri"
 	font-size: 12pt;
 	text-align: left;
-	text-indent: 48px
+	text-indent: 48px;
 	color: white;
 	margin: 50px;
 }
