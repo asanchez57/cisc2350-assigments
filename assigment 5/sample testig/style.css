@@ -1,0 +1,140 @@
+body {
+	background-color: #585858;	
+	font-family: Helvetica, Arial, sans-serif;
+	max-width: 16;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	
+			}
+	/*testing the html new body element after 1000 is the new body */
+
+
+	a {
+		text-decoration: none;
+		columns: #0040FF;
+	}
+
+
+
+	h1, h2, h3 {
+		margin: 1em;
+	}
+	h1, {
+		font-family: 'audiowide', cursive;
+		font-size: 2rem;
+		
+	}
+	#h2 {
+		font-size: 1rem;
+	}
+	h3,h2 {
+		font-family: 'Overpass Mono', monospace;
+		text-align: middle;
+		font-size: 2rem;
+	}
+	h
+	p, a {
+		font-family: 'Open Sans', 'Helvetica', sans-serif;
+	}
+
+
+	/*after the h1,h2,h3,p is new stuff */
+
+
+	#container  {
+		background-color: #DF013A;
+
+		width: 860;
+		float: right;
+
+		margin-right: auto;
+		margin-left: auto;
+
+	}
+
+
+#header {
+	background-color: #F2F5A9;
+	color: #58FA58;
+	text-align: center;
+	padding: 1rem 0 1rem;
+	}
+/*heading adding padding 10rem 0 10rem*/
+
+#content {
+	padding: 10%;
+}
+
+
+
+nav ul {
+	list-style-type: none;
+	padding: 1%;
+	border: solid;
+		border-color: black;
+		float: right;
+}
+	
+#nav {
+	width: 30%;
+	float: left;
+
+	}
+	nav.selected {
+		font-weight: bold;
+
+	}
+	
+
+	#main {
+		width: 30%;
+		float: left;
+	}
+
+	#footer {
+		clear: both;
+		background-color: #999999;
+		color: white;
+		text-align: right;
+		padding: 1%;
+	}
+	#left {
+		
+		text-align: left;
+		width: 100%;
+	}
+
+img {
+
+  
+  background-image: url(C:\Users\angel\cisc2350-assigments\midtern\img\IMG_4128.JPG);
+  background-image: url(C:\Users\angel\cisc2350-assigments\midtern\img\IMG_4128.JPG);
+	background-attachment: fixed;
+	background-size: cover;
+	width: 80%;
+	float: left;
+
+}
+/** from image i took out display: block; margin-left: auto; margin-right: auto;
+image width: 50%;
+  height: auto;
+  vertical-align: left; */
+
+footer {
+	bottom: 0;
+	padding: 2rem;
+
+}
+/** media querry */
+@media screen and (min-width:89%) {
+	header {}
+		
+#container {
+	width: 100%;
+
+	}
+
+}
+
+
