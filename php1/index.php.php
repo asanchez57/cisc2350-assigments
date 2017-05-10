@@ -30,7 +30,7 @@ echo "$text1";
 of the food  i dislike. Also i will <br/> share with you some of the classes that i will<br/>
 
   like to like in the futere as major requires </p>
- 
+ <section>
 <h2>
 <?php
 // title before i create a lit 
@@ -54,14 +54,18 @@ for($x=0;$x<$arrlength;$x++)
   echo "<br>";
   }
 ?>
+</section style="display: block;">
 
-<p><strong>My least favorite food</strong>
+<p><strong>My least favorite food with calories</strong>
+
 
 <?php
 //trying other stuff
-$bad=array('oxtail','fishsoup');
-list($a{0},$a{1}) = $bad;
-var_dump($a);
+echo "<br>";
+$bad = array('oxtail'=>1000,'fishsoup'=>2000);
+print_r($bad)
+//list($a{0},$a{1}) = $bad;
+//var_dump($a);
 
 
 
@@ -83,30 +87,37 @@ var_dump($a);
    
 <h4>
 <?php  
-$title4 = "List of class that interesting in taking";
+$title4 = "Classes associate with computer science";
 echo "$title4";
 
 ?>
-</h4>
-	<p> 
-	<?php  
-	$Security = "1.cyber security";
-	$forensis = "2.computer forensis";
-	$Java = "3.java Programing";
-	echo "$Security";
-	echo "<br>";
-	echo "$forensis";
-	echo "<br>";
-	echo "$Java";
-	echo "<br>";
+</h4>	
+
+
+
+<?php
+$day = 'friday';
+$longShift = true;
+
+if ($day == 'Monday') {
+	echo 'Wish you a fresh start!';
+} elseif ($day == 'Wednesday') {
+	echo 'Keep going. Good luck!';
+} elseif ($day == 'Friday' && !$longShift) {
+	echo 'Happy weekend!';
+} else {
+	echo 'Good day!';
+}
+
+
+?>
+
+</body>
+
+
+
+
 	
 
 
-	 
-	?>	
-</p>
-
-	</body>
-
-by Angel Sanchez
 
